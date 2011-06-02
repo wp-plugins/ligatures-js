@@ -3,7 +3,7 @@
 /*
 Plugin Name: Ligatures.js
 Description: Loads Chip Cullen's Ligatures.js library and provides an interface for applying to a specific set of CSS selectors.
-Version: 0.1
+Version: 1.0
 Author: Dave Ross
 Author URI: http://davidmichaelross.com/
 */
@@ -11,7 +11,6 @@ Author URI: http://davidmichaelross.com/
 include "ligatures-admin.php";
 
 /**
- * Initialize the live search object & enqueuing scripts
  * @return void
  */
 function ligatures_init() {
@@ -33,7 +32,6 @@ LIG;
   echo '});</script>'."\n";
 	
 }
-
 
 add_action('init', 'ligatures_init');
 add_action('wp_head', 'ligatures_head');
