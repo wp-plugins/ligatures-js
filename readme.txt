@@ -10,6 +10,8 @@ Loads Chip Cullen's Ligatures.js library and provides an interface for applying 
 
 == Description ==
 
+**NOTE: This plugin has outlived its usefulness. You can use it if you need to support legacy browsers, but modern web sites should be using the `text-rendering: optimizeLegibility;` declaration in their CSS to encourage context-sensitive kerning and the use of ligatures. [This article](http://www.usabilitypost.com/2012/11/06/optimize-legibility/) shows how the kerning feature works.**
+
 Chip Cullen's [Ligatures.js](http://chipcullen.com/ligatures/) plugin for jQuery is an extremely lightweight tool automatically inserting ligatures in content where appropriate. Ligatures are glyphs that combine two letter forms into one for stylistic and legibility reasons.
 
 Since it depends on fonts for ligature rendering, it's limited to the four ligatures that are reliably supported: fi, fl, AE, and ae.
